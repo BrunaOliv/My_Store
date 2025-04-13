@@ -21,6 +21,9 @@ export function Header(){
                     <button className={styles.loginButton}>
                         Login
                     </button>
+                    <Link href="/createProduct" className={styles.loginButton}>
+                        Cadastrar Produto
+                    </Link>
                 </div>
             </nav>
             

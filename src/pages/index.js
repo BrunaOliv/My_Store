@@ -23,7 +23,15 @@ export default function Home() {
         </form >
       </div>
 
-    <ProductCard />
+    <div className={styles.productContent}>
+      <ProductCard  className={styles.productCard} />
+      <ProductCard className={styles.productCard} />
+      <ProductCard className={styles.productCard} />
+      <ProductCard className={styles.productCard} />
+      <ProductCard className={styles.productCard} />
+      <ProductCard className={styles.productCard} />
+    </div>
+    
 
     </div>
   );

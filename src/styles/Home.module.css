@@ -36,3 +36,14 @@
   border: 0;
   cursor: pointer;
 }
+
+.productContent{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+}
+
+.productCard{
+  flex: 1 1 calc(25% - 56px);
+  box-sizing: border-box;  
+}
