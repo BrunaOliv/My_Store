@@ -1,0 +1,49 @@
+.header{
+    background-color: #214d89;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    height: 60px;
+
+    a{
+        display: flex;
+        text-decoration: none;
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    h1{
+        margin: 0 12px;
+        color: #FFF;
+    }
+}
+
+.cart{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.loginButton{
+    padding: 8px 16px;
+    border-radius: 32px;
+    color: #214d89;
+    font-weight: bold;
+    background-color: #fff;
+    margin: 0 8px;
+    cursor: pointer;
+    border: 0;
+    transition: transform 0.4s;
+}
+
+.loginButton:hover{
+    transform: scale(1.08);
+}
